@@ -1,7 +1,35 @@
+# Java class files
 *.class
-build/
-.gradle
 
-*.jar
-*.aar
-*.war
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Gradle
+.gradletasknamecache
+.gradle/
+build/
+bin/
+
+#NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
