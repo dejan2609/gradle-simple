@@ -1,20 +1,5 @@
-# gradle-simple
+# POC for Buildship Eclipse Gradle plugin issues (development version 2.x)
 
-[![Release](https://img.shields.io/github/release/jitpack/gradle-simple.svg?label=maven version)](https://jitpack.io/#jitpack/gradle-simple)
+[https://discuss.gradle.org/t/eclipse-import-fails-gradle-3-1-eclipse-4-6-1-buildship-2-0-java-8/19611/2?u=dejan2609]
 
-Example Gradle project producing a single jar. Uses the `maven` plugin to publish the jar to the local repository.
-
-[https://jitpack.io/#jitpack/gradle-simple](https://jitpack.io/#jitpack/gradle-simple)
-
-To install the library add: 
- 
-   ```gradle
-   repositories { 
-        jcenter()
-        maven { url "https://jitpack.io" }
-   }
-   dependencies {
-         compile 'com.github.jitpack:gradle-simple:1.0.5'
-   }
-   ```  
 
